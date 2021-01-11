@@ -1,5 +1,7 @@
-import React from 'react';
 import './Main.css';
+
+import React from 'react';
+import Button from '../Button/Button';
 
 const Main = () => {
 	return (
@@ -10,7 +12,7 @@ const Main = () => {
 				</div>
 			</div>
 
-			<button className="btn" id="load-more-btn">Load More</button>
+			<Button btnText="Load More" />
 		</div>
 	)
 }

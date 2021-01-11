@@ -1,13 +1,18 @@
-import React from 'react';
 import './Header.css';
 
-const Header = () => {
+import React from 'react';
+import Button from '../Button/Button';
+
+interface HeaderProps {
+	title: string;
+	btnText: string;
+}
+
+const Header = ({ title, btnText }: HeaderProps) => {
 	return (
-		<div>
-			<nav className="navbar">
-				<span className="navbar-brand">red0ne</span>
-				<span><button id="authButton" className="btn">Sign In</button></span>
-			</nav>
+		<div className="header">
+			<div>{title}</div>
+			<Button btnText={btnText} />
 		</div>
 	)
 }
