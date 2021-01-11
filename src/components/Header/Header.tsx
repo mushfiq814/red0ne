@@ -11,8 +11,15 @@ interface HeaderProps {
 const Header = ({ title, btnText }: HeaderProps) => {
 	return (
 		<div className="header">
-			<div>{title}</div>
-			<Button btnText={btnText} />
+
+			<div className="left">
+				<p>{title}</p>
+			</div>
+
+			<div className="right">
+				<Button btnText={btnText} />
+			</div>
+
 		</div>
 	)
 }
