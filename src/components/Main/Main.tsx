@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 
-function Main() {
+const Main = () => {
 	return (
 		<div id="search-container" className="container">
 			<div className="results-view">
