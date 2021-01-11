@@ -1,4 +1,5 @@
 import React from 'react';
+import './Main.css';
 
 function Main() {
 	return (
@@ -8,7 +9,8 @@ function Main() {
 					<div className="card-columns bricklayer" id="cardColumns"></div>
 				</div>
 			</div>
-			<button id="load-more-btn" className="btn">Load More</button>
+
+			<button className="btn" id="load-more-btn">Load More</button>
 		</div>
 	)
 }

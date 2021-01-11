@@ -1,0 +1,7 @@
+.navbar {
+  padding: 20px 40px;
+  font-size: 2rem;
+  font-weight: 900;
+  background: var(--col-1);
+  color: white;
+}

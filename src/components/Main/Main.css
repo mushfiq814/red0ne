@@ -1,0 +1,17 @@
+.container {
+  margin: 40px auto;
+  width: 90%;
+}
+
+.sign-in {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  vertical-align: middle;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
