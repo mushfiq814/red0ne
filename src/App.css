@@ -18,16 +18,16 @@ body {
 .btn {
   margin: 0 auto;
   font-weight: bolder;
-  background: #D65108;
-  border: 2px solid #D65108;
+  background: var(--col-2);
+  border: 2px solid var(--col-2);
   border-radius: 5px;
   padding: 10px 15px;
   color: #fff;
 }
 
 .btn:hover {
-  background: #591F0A;  
-  border-color:#591F0A;
+  background: var(--col-3);  
+  border-color:var(--col-3);
   color: #fff;
   cursor: pointer;
 }
